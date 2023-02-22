@@ -1,3 +1,3 @@
-import {listen} from '@beyond-js/backend/listen';
-console.log('ALISTEN')
+import { listen } from "@beyond-js/ssr/listen";
+console.log("ALISTEN");
 listen();
