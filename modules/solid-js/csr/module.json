@@ -1,0 +1,23 @@
+{
+    "name": "home",
+    "platform": ["ssr"],
+    "widget": {
+        "is": "page",
+        "route": "/solid",
+        "render": {
+            "ssr": true,
+            "csr": false
+        },
+        "element": {
+            "name": "home-page"
+        },
+        "sass": {
+            "path": "sass",
+            "files": ["*"]
+        },
+        "ts": {
+            "path": "ts",
+            "files": ["*"]
+        }
+    }
+}

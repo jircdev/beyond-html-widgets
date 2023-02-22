@@ -1,0 +1,9 @@
+{
+    "name": "base",
+    "description": "Base controller",
+    "platform": ["ssr"],
+    "ts": {
+        "path": "ts",
+        "files": ["*"]
+    }
+}
